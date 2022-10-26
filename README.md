@@ -50,15 +50,15 @@ only the information of available to all current players, in order to select, fr
 available SETs, the one(s) which might increase the chances of having a 'perfect' end
 game. 
 
-The 'quasi_thrify' and 'thrify' selection methods are such options, based on algorithms
-present in the code. The 'quasi_thrify' option was the first implementation, and 'thrifty'
-improves upon 'quasi_thrify' by a small margin. 
+The 'quasi_thrifty' and 'thrifty' selection methods are such options, based on algorithms
+present in the code. The 'quasi_thrifty' option was the first implementation, and 'thrifty'
+improves upon 'quasi_thrifty' by a small margin. 
 
 (Because the algorithms producing these options are of min-max type, they also naturally 
 enjoy counterparts, which achieve opposite results, and which I call 'quasi_greed' and
 'greedy'.)
 
-Both of the 'quasi_thrify' and 'thrify' algorithms are based upon computations involving
+Both of the 'quasi_thrifty' and 'thrifty' algorithms are based upon computations involving
 a quantity that I call 'impact_factor' and which is roughly defined as follows. 
 
 By selecting with replacement, it is possible to form, with a full deck of cards, a maximum
