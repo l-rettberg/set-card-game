@@ -77,6 +77,9 @@ class SETGame:
 
 		self.discard.append(SET)
 
+	def is_over(self):
+		return not (self.selectedposition or self.deck)
+
 	def __iter__(self):
 		self.shuffle()
 		return self
@@ -137,4 +140,5 @@ def simulate(num_games=1000, dimension=None, table_size=None, file_name=None):
 	else:
 		df.to_csv(file_name, index=False)
 
-		
+
+
