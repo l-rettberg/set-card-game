@@ -63,7 +63,7 @@ a quantity that I call 'impact_factor' and which is roughly defined as follows.
 
 By selecting with replacement, it is possible to form, with a full deck of cards, a maximum
 of 1080 SETs. But the game proceeds without replacement, and so once certain cards are 
-removed from the game, they remove remove with them a certain number of elements from
+removed from the game, they remove with them a certain number of elements from
 this list of 1080. I call this number of elements that would be removed by a SET its impact
 factor. 
 
