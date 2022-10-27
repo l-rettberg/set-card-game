@@ -34,6 +34,7 @@ many features as you'd like (the usual number of features is four).
 
 Place all of the files in the same directory in your computer. (Or clone the repository.)
 
+
 ## Using setgametools.py
 
 The script simulator.py is a minimal working example for using setgametools.py. 
@@ -50,6 +51,7 @@ as possible by the end of the game in order to increase the likelihood of having
 'perfect' game. (The choice 'thrifty' improves upon 'quasi_thrifty' by a small amoung.)
 The other choices are the counterparts to these, meaning that they decrease the likelihood
 of having a 'perfect' game. 
+
 
 By running the minimal working example simulator.py, the output should be a csv file (in
 the same directory) which has the name 100_random_choice.csv. (A specific name for the output

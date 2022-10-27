@@ -85,7 +85,6 @@ class SETGame:
 		return self
 
 	def __next__(self):
-		picked_position = None
 		if len(self.deck) == 3 ** self.dimension:
 			self.deal()
 			self.findSETs()
@@ -139,6 +138,4 @@ def simulate(num_games=1000, dimension=None, table_size=None, file_name=None):
 		df.to_csv(str(num_games) + '.csv', index=False)
 	else:
 		df.to_csv(file_name, index=False)
-
-
 
