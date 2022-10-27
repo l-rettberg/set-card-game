@@ -30,6 +30,7 @@ many features as you'd like (the usual number of features is four).
 # How to use
 
 Place all of the files in the same directory in your computer. (Or clone the repository.)
+You must have python installed, along with pandas. 
 
 
 ## Using setgametools.py
