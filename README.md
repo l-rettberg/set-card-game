@@ -69,7 +69,7 @@ status, the columns keep track of the following information:
 
 ## Using SETGameClass.py
 
-`class` SETGame(`dimension=4, table_size=3*dimension`)
+`class` SETGame(`dimension=4, table_size=dimension`)
 
 A class to collect the data of a SETGame. 
 
@@ -77,7 +77,7 @@ Parameters:
 
 - __dimension__: `int` (Default is 4)
 
-- __table_size__: `int` (Default is three times `dimension`)
+- __table_size__: `int` (Default is `dimension`; then the starting table size for the game is 3*table_size)
 
 Attributes:
 
@@ -91,10 +91,10 @@ Attributes:
 
 ### Examples
 
-Constructing a game with 5 features and default table size (of 15)
+Constructing a game with 5 features and table size of 18
 
 ```py
->>> game = SETGame(dimension=5)
+>>> game = SETGame(dimension=5, table_size=6)
 ```
 
 Printing all of the states of a standard game
