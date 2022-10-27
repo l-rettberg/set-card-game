@@ -26,9 +26,6 @@ Since its creation, the objective of this project has expanded, and, as of this
 writing, the simulator now permits the game to be played with cards having as
 many features as you'd like (the usual number of features is four). 
 
-# Features
-
-
 
 # How to use
 
